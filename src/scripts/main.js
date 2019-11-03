@@ -26,3 +26,11 @@ console.log(doctorsBill['owed'])
 
 doctorsBill.patient = patient
 console.log(doctorsBill['patient'])
+
+// Lightning Exercise 3: Use Object.values() to output all the property values to the console in Chrome
+
+
+    for (const value of Object.values(doctorsBill)) {
+        console.log(value)
+    }
+
