@@ -1,4 +1,4 @@
-// Lightning Exercises
+// Lightning Exercises Objects.values()
 
 // Lightning Exercise 2: Copy the code below and paste it above your object.
 
@@ -33,4 +33,13 @@ console.log(doctorsBill['patient'])
     for (const value of Object.values(doctorsBill)) {
         console.log(value)
     }
+
+    // Lightning Exercises Objects.keys()
+
+// Lightning Exercise 1: Output all of the key names from your doctor's office bill to the console in Chrome.
+
+for (const key of Object.keys(doctorsBill)) {
+    console.log(key)
+}
+
 
