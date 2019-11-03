@@ -1,5 +1,10 @@
 // Lightning Exercises
-// Lightning Exercise 1: Create an object that represents a bill from your doctor's office. It should have the following properties: officeName, streetAddress, doctorName, patientName, visitDate, amountBilled, dueDate. You provide example values for each one.
+
+// Lightning Exercise 2: Copy the code below and paste it above your object.
+
+const dateVisited = "visitDate"
+const owed = "amountBilled"
+const patient = "patientName"
 
 const doctorsBill = {
     officeName: 'Private Practice Inc',
@@ -11,3 +16,13 @@ const doctorsBill = {
     dueDate: '2/3/2019'
 }
 
+// Use square bracket notation to output the value of those three properties to the console in Chrome.
+
+doctorsBill.dateVisited = dateVisited
+console.log(doctorsBill['dateVisited'])
+
+doctorsBill.owed = owed
+console.log(doctorsBill['owed'])
+
+doctorsBill.patient = patient
+console.log(doctorsBill['patient'])
