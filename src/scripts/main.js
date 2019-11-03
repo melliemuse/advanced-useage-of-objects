@@ -36,10 +36,14 @@ console.log(doctorsBill['patient'])
 
     // Lightning Exercises Objects.keys()
 
-// Lightning Exercise 1: Output all of the key names from your doctor's office bill to the console in Chrome.
+    // Lightning Exercise 1: Output all of the key names from your doctor's office bill to the console in Chrome.
 
-for (const key of Object.keys(doctorsBill)) {
-    console.log(key)
+    // Lightning Exercise 2: Output all of the key names from your doctor's office bill to the DOM inside a parent <section> element. Wrap each one in a <span> element.
+
+    const informationContainer = document.querySelector('.information')
+    
+    
+    for (const key of Object.keys(doctorsBill)) {
+        informationContainer.innerHTML += `<span>${key}</span>`
 }
-
 
