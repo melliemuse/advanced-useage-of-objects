@@ -34,3 +34,4 @@ console.log(doctorsBill['patient'])
         console.log(value)
     }
 
+    console.log(Object.values(doctorsBill))
